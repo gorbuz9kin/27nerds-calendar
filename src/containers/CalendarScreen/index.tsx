@@ -73,6 +73,7 @@ const CalendarScreen: React.FC = () => {
 
   const onSelectOption = useCallback((option: CalendarOptionType) => {
     setSelectedOption(option);
+    // TODO: update selected dates
   }, []);
 
   const onBackPress = useCallback(() => {
